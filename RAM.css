@@ -1,0 +1,87 @@
+
+body {
+    background-image: url('fomdo.jpeg'); 
+    font-family:ALGERIAN;
+    background-color: #169489;
+    color: rgb(98, 12, 148);
+    margin: 1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: #068d59;
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+.contenedor {
+    font-family:ALGERIAN;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: #0f8b73c4;
+    border-radius: 12px;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.menu ul {
+    font-family:ALGERIAN;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #e21111e5;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px #0565c5a6;
+}
+
+.menu li a {
+    font-family:ALGERIAN;
+    color: #5fb4a8;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+    border-bottom: 3px solid #bf0be3c9;
+}
+
+.menu li a:hover {
+    font-family:ALGERIAN;
+    background-color: #1fffd259;
+}
+
+.descripcion {
+    font-family:ALGERIAN;
+    flex: 1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #a50606e3;
+    font-size: 18px;
+    background-color: #098f99c2;
+    font-family: 'Georgia', serif;
+    line-height: 1.8;
+    text-align: ALGERIAN;
+}
+
+.imagen-descripcion {
+    font-family:ALGERIAN;
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+   
+}
